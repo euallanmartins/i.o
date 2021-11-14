@@ -105,7 +105,7 @@
         }
 
         .profile a:hover {
-            color:Thistle	;
+            color:blue	;
         }
 
         .profile h3 {
@@ -120,4 +120,21 @@
         }
         h3 {
             padding: 3%;
+        }
+        .sobre{
+            color: #d5d5d5;
+        }
+        button{
+            width: 10vw;
+            height: 4vh;
+            background: -webkit-linear-gradient(
+                #6610f2,white);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                border-radius: 10%;
+                text-transform:uppercase;
+               
+        }
+        button:hover{
+            cursor: pointer;
         }
