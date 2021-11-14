@@ -78,7 +78,7 @@
             height: 1px;
             margin-top: -1px;
             border: none;
-            background: linear-gradient(to right, transparent, #d5d5d5, transparent);
+            background: linear-gradient(right, transparent, #d5d5d5, transparent);
         }
 
         .profile {
@@ -131,11 +131,12 @@
                 #6610f2,white);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                border-radius: 10%;
                 text-transform:uppercase;
-               position: relative;
-               left: 10%;
+               text-align: center;
+               display: inline;
+             
         }
         .projeto:hover{
             cursor: pointer;
+            
         }
