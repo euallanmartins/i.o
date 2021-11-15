@@ -134,7 +134,7 @@
                 text-transform:uppercase;
                text-align: center;
                display: inline;
-             
+               font-size: 12px;
         }
         .projeto:hover{
             cursor: pointer;
